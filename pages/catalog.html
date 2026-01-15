@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Каталог — PrimeEstate</title>
+
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="../index.html">Prime<span>Estate</span></a>
+
+      <nav class="nav" aria-label="Главное меню">
+        <a class="nav__link" href="../index.html">Главная</a>
+        <a class="nav__link" href="about.html">О компании</a>
+        <a class="nav__link nav__link--active" href="catalog.html">Каталог</a>
+        <a class="nav__link" href="contacts.html">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="pageHead">
+      <div class="container">
+        <h1 class="pageHead__title">Каталог недвижимости</h1>
+        <p class="pageHead__text">
+          Ниже — примеры объектов (без backend и без JS). Карточки сделаны на Grid.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filters" aria-label="Фильтры (макет)">
+          <span class="chip chip--active">Все</span>
+          <span class="chip">Квартиры</span>
+          <span class="chip">Дома</span>
+          <span class="chip">Аренда</span>
+          <span class="chip">Продажа</span>
+        </div>
+
+        <div class="grid grid--4">
+          <article class="card">
+            <div class="card__img"></div>
+            <div class="card__body">
+              <h2 class="card__title">2-комн. • Центр</h2>
+              <p class="card__meta">Астана • 62 м² • 12/16</p>
+              <p class="card__price">28 900 000 ₸</p>
+              <a class="btn btn--small" href="contacts.html">Оставить заявку</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img">
+                <img src="image.png">
+            </div>
+            <div class="card__body">
+              <h2 class="card__title">1-комн. • Левый берег</h2>
+              <p class="card__meta">Астана • 39 м² • 7/12</p>
+              <p class="card__price">19 700 000 ₸</p>
+              <a class="btn btn--small" href="contacts.html">Оставить заявку</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img"></div>
+            <div class="card__body">
+              <h2 class="card__title">Дом • Пригород</h2>
+              <p class="card__meta">Ильинка • 140 м² • 6 соток</p>
+              <p class="card__price">49 500 000 ₸</p>
+              <a class="btn btn--small" href="contacts.html">Оставить заявку</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img"></div>
+            <div class="card__body">
+              <h2 class="card__title">Студия • Удобный район</h2>
+              <p class="card__meta">Астана • 28 м² • 3/9</p>
+              <p class="card__price">13 800 000 ₸</p>
+              <a class="btn btn--small" href="contacts.html">Оставить заявку</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© 2026 PrimeEstate. Все права защищены.</p>
+      <p class="footer__small">Каталог — демонстрационный (учебный) макет</p>
+    </div>
+  </footer>
+</body>
+</html>
