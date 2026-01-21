@@ -1,4 +1,4 @@
-/* components.css — кнопки, карточки, формы, навигация */
+
 .logo{
   font-weight: 800;
   letter-spacing: 0.4px;
@@ -300,3 +300,4 @@
   color: var(--muted);
   font-size: 13px;
 }
+
