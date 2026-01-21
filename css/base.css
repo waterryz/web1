@@ -1,0 +1,51 @@
+/* base.css — типографика, цвета, общие элементы */
+:root{
+  --bg: #0b1220;
+  --surface: #111a2e;
+  --surface-2: #0f1730;
+  --text: #eaf0ff;
+  --muted: #b7c3e6;
+  --border: rgba(255,255,255,0.10);
+  --accent: #ffd166;
+  --accent-2: #2dd4bf;
+  --shadow: 0 12px 30px rgba(0,0,0,0.35);
+
+  --radius: 16px;
+  --container: 1120px;
+}
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: radial-gradient(900px 500px at 20% 10%, rgba(45,212,191,0.12), transparent 60%),
+              radial-gradient(900px 500px at 80% 10%, rgba(255,209,102,0.10), transparent 60%),
+              var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.container{
+  width: min(100% - 32px, var(--container));
+  margin-inline: auto;
+}
+
+.section{
+  padding: 56px 0;
+}
+
+.section--muted{
+  background: rgba(255,255,255,0.03);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.section__title{
+  margin: 0 0 18px;
+  font-size: 28px;
+}
+
+.note{
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+    
